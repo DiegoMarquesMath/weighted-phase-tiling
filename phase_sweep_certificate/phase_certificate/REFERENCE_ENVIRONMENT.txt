@@ -1,0 +1,12 @@
+Reference verification environment
+==================================
+
+Operating system: Linux x86_64
+GCC: 14.2.0
+Clang: 17.0.0
+GMP: 6.3.0
+Python: 3.13.5
+
+The proof is based on exact integer/rational arithmetic and does not depend on
+these exact versions.  They record the environment used to produce the
+reference outputs in results/.

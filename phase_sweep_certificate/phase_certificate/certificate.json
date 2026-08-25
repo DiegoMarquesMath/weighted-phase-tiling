@@ -1,0 +1,36 @@
+{
+  "certificate_name": "GKPR N=21 phase-sweep amplification with seam correction",
+  "format_version": 2,
+  "date": "2026-08-23",
+  "upstream_repository": "https://github.com/maciej-radziejewski/sign-changes",
+  "logical_scope": "The upstream contour, tail, lattice, and product-cell inclusions are imported; all new phase-sweep deductions are verified here.",
+  "upstream_truncation_N": 21,
+  "grid_length": 16000,
+  "original_contour_width": "132737/1000000",
+  "number_of_phase_charts": 24000,
+  "restricted_half_width": "1/48000",
+  "fixed_point_block_bits": 256,
+  "fixed_point_outputs": {
+    "80": "16808857862779264",
+    "112": "72193494803811619816853673"
+  },
+  "phase_mass_lower": {
+    "80": "16808857862779264/2^60",
+    "112": "72193494803811619816853673/2^92"
+  },
+  "coarse_phase_mass_lower": "1457/100000",
+  "upstream_erosion_radius": "332/1000000000000000",
+  "seam_loss_upper": "13944/1000000000000000",
+  "gamma0_upper": "14135/1000",
+  "gamma1_lower": "21022/1000",
+  "pi_upper": "22/7",
+  "reciprocal_theta1_upper": "44000/48209",
+  "outer_width_upper": "132737/1000000 + (23999/24000)*(44000/48209)",
+  "computed_2kappa_lower_80_decimal": "0.02789262865750909",
+  "computed_2kappa_lower_112_decimal": "0.02789262865753313",
+  "strong_target": "2789/100000",
+  "strong_exact_margin": "54622583536897606889634853/20779650200857873481728000000000",
+  "clean_target": "1/36",
+  "coarse_exact_margin_over_clean_target": "8244591184361251/85045417930687500000",
+  "result": "PASS"
+}

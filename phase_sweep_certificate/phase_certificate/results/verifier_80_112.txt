@@ -1,0 +1,36 @@
+cc -O3 -std=c11 -Wall -Wextra -DSCALE_BITS=80 -o verify_phase_sweep_80 verify_phase_sweep.c -lgmp
+./verify_phase_sweep_80 upstream_data
+weighted phase-sweep certificate
+fixed-point bits       : 80
+number of phase charts: 24000
+h                      : 1/48000
+C_lower                : 1.3903961343250527e-08
+phase_mass_lower       : 0.014579360169460265
+seam_loss_upper        : 1.3944e-11
+safe_phase_mass_lower  : 0.014579360155516264
+outer_width_upper      : 1.0453916218894119
+2*kappa lower          : 0.027892628657509095
+coarse 2*kappa lower   : 0.027874721168556108
+strong target          : 2789/100000 = 0.027890000000000002
+strong exact margin    : 54622583536897606889634853/20779650200857873481728000000000
+clean target           : 1/36 = 0.027777777777777776
+coarse exact margin    : 8244591184361251/85045417930687500000
+RESULT                 : PASS
+cc -O3 -std=c11 -Wall -Wextra -DSCALE_BITS=112 -o verify_phase_sweep_112 verify_phase_sweep.c -lgmp
+./verify_phase_sweep_112 upstream_data
+weighted phase-sweep certificate
+fixed-point bits       : 112
+number of phase charts: 24000
+h                      : 1/48000
+C_lower                : 1.390396134326251e-08
+phase_mass_lower       : 0.014579360169472829
+seam_loss_upper        : 1.3944e-11
+safe_phase_mass_lower  : 0.014579360155528831
+outer_width_upper      : 1.0453916218894119
+2*kappa lower          : 0.027892628657533138
+coarse 2*kappa lower   : 0.027874721168556108
+strong target          : 2789/100000 = 0.027890000000000002
+strong exact margin    : 30029083143633957448713469317527097839/11423733508480562911760308936638464000000000
+clean target           : 1/36 = 0.027777777777777776
+coarse exact margin    : 8244591184361251/85045417930687500000
+RESULT                 : PASS

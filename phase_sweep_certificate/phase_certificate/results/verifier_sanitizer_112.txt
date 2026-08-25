@@ -1,0 +1,16 @@
+weighted phase-sweep certificate
+fixed-point bits       : 112
+number of phase charts: 24000
+h                      : 1/48000
+C_lower                : 1.390396134326251e-08
+phase_mass_lower       : 0.014579360169472829
+seam_loss_upper        : 1.3944e-11
+safe_phase_mass_lower  : 0.014579360155528831
+outer_width_upper      : 1.0453916218894119
+2*kappa lower          : 0.027892628657533138
+coarse 2*kappa lower   : 0.027874721168556108
+strong target          : 2789/100000 = 0.027890000000000002
+strong exact margin    : 30029083143633957448713469317527097839/11423733508480562911760308936638464000000000
+clean target           : 1/36 = 0.027777777777777776
+coarse exact margin    : 8244591184361251/85045417930687500000
+RESULT                 : PASS
